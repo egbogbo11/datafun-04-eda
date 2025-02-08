@@ -62,4 +62,46 @@ git add .
 git commit -m "commit: message"
 git push origin main
 ```
-##  
+##  Complete the following steps to create an EDA for the Iris Dataset
+Step 1. Create an title, header, and import the following libraries into your Jupyter notebook:
+```bash
+pandas
+seaborn
+matplotlib
+```
+Step 2. Load Data
+- Load the Iris dataset into pandas DataFrame
+
+Step 3. Initial Data Inspection
+- Specify the number of rows to display
+- Inspect the shape of the DataFrame with shape attribute
+- Inspect the data types of the columns with dtypes attribute
+- Inspect the data types of the columns with info() method
+
+Step 4. Intital Descriptive Statistics
+- Inspect summary statistics for numerical columns
+
+Step 5a. Initial Data Distribution for Numerical Columns
+- Inspect histogram by one numerical column
+- Inspect histograms for ALL numerical columns
+- Show all plots
+
+Step 5b. Intital Data Distribution for Categorical Columns
+- Inspect value counts by categorical column
+- Inspect value counts for ALL categorical columns
+- Show all plots
+
+Step 6. Initial Data Transformation and Feature Engineering
+- Feature Engineering
+- Renaming a column
+- Adding a new column
+
+Step 7. Initial Visualizations
+- Create a pairplot of the Iris dataset
+- Show all plots
+
+- Create a scatterplot of sepal length and sepal area
+
+Step 8. Initial Insights
+- share conclusions and insights from the visualized data
+##
